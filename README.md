@@ -1,5 +1,18 @@
 Copyright 2020 John Hicks, all rights reserved.
 
+## Setup
+
+In addition to the create-react-app setup, you'll need a file `src/auth_config.ts`
+```javascript
+export default {
+    "domain": "blah.us.auth0.com",
+    "clientId": "123321",
+    "audience": "https://youraudience/api"
+};
+```
+This is less for security, since these options would be output in the JS bundle,
+and more for explicit configuration.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
