@@ -1,3 +1,5 @@
+Copyright 2020 John Hicks, all rights reserved.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
